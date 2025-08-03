@@ -1,0 +1,55 @@
+.mood-song {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 24px;
+  border-radius: 16px;
+  backdrop-filter: blur(12px);
+  max-width: 480px;
+  margin: 0 auto;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+.heading {
+  margin-bottom: 16px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.song-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:black ;
+  padding: 12px 16px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  transition: background 0.3s;
+}
+
+.song-item:hover {
+  background-color: rgba(238, 238, 238, 0.15);
+}
+
+.title h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+
+.title p {
+  margin: 0;
+  font-size: 13px;
+  color: #ccc;
+}
+
+.play-pause-button {
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  transition: transform 0.2s;
+}
+
+.play-pause-button:hover {
+  transform: scale(1.2);
+}
