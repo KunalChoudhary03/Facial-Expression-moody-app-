@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import FacialExpressionDetector from './components/FacialExpression'
 import MoodSongs from './components/MoodSongs'
-import './app.css'
+import './App.css'
 const App = () => {
     const [songs, setSongs] = useState([
     
